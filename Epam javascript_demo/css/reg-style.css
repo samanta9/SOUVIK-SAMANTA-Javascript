@@ -1,0 +1,43 @@
+
+  @import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+   body{
+	 background-color:#00fff8;
+	   }
+	   
+	   #dept
+	   {
+	   position:absolute;
+	   width:100px;
+	   
+	   }
+	   form
+	   {
+	   position:absolute;
+	   left: 300px;
+	   top:100px;
+	   }
+	   #f{
+	   height:400px;
+	   width:500px;
+	   
+	   }
+	   #f2
+	   {
+	    background-color:DodgerBlue;
+		color:white;
+	   }
+	   
+	   #button
+	   {
+	   position:absolute;
+	   left: 120px;
+	   top:380px;
+	   padding:5px 12px;
+	   
+	   }
+	   #re{
+	   position:absolute;
+	   left: 220px;
+	   top:380px;
+	    padding:5px 12px;
+	   }

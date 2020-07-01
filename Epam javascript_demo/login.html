@@ -1,0 +1,48 @@
+<html>
+    <head>
+
+        <title>login</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="css/login.css">
+		 <script src="javascript/main.js">
+		 </script>
+		
+    </head>
+    <body>
+        
+
+        <div class="form">
+            <h3 > Sign in</h3>
+            <img src="images/z.png">
+            <img src="images/d.png " id="l">
+			
+			<form name="das" id="act" onsubmit="sign()" method="post">
+            <div class="fr">
+            <input type="email" name="eml" placeholder="  mail@example.com" maxlength="50" autocomplete="off"  required>
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+            <br><br>
+            <input type="password" name="pas" placeholder="  password" maxlength="20" autocomplete="off" required>
+            <i class="fa fa-unlock-alt" aria-hidden="true"></i>
+            </div>
+			
+			<input type="submit" id="button" value="SIGN IN">
+
+            <a href="fgpass.html" target="_blank">Forgot your password ? </a>
+            <a id="k" href="reg.html" target="_blank">Register!</a>
+			
+			</form>
+            <br><br>
+            <hr>  <p> OR </p> 
+            <br>
+            <hr id="n">
+           
+
+            <button id="d" onclick="gml()" >gmail</button>
+            <button id ="s" onclick="fb()">facebook</button>
+            <button id="c" onclick="epam()" > <  EPAM LOGIN  > </button>
+
+        </div>
+
+    </body>
+</html>
